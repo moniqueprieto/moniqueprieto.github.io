@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.header {
+	padding: 0 20px;
+	padding-bottom: 18px;
+}
+
+.header h1 {
+	font-size: 130px;
+	font-weight: 900;
+	margin: 0;
+}
+
+#prieto {
+	position: relative;
+	z-index: 2;
+	/*transition: color 1s;*/
+}
+
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 980px;
+	padding: 0 10px;
+}
+
+.nav a {
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+.picture {
+	flex: 1;
+	background: url('https://s3.amazonaws.com/media.artslant.com/work/image/507922/slide/20111023140840-a324.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#blacker {
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
